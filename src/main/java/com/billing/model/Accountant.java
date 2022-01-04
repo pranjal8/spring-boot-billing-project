@@ -1,4 +1,4 @@
-package com.virtusa.billing.model;
+package com.billing.model;
 
 import java.util.ArrayList;
 import java.util.List;

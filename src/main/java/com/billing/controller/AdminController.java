@@ -1,4 +1,4 @@
-package com.virtusa.billing.controller;
+package com.billing.controller;
 
 import java.util.List;
 
@@ -8,12 +8,12 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.virtusa.billing.dao.AccountantRepository;
-import com.virtusa.billing.dao.AdminRepository;
-import com.virtusa.billing.dao.StudentsRepository;
-import com.virtusa.billing.model.Accountant;
-import com.virtusa.billing.model.Admin;
-import com.virtusa.billing.model.Students;
+import com.billing.dao.AccountantRepository;
+import com.billing.dao.AdminRepository;
+import com.billing.dao.StudentsRepository;
+import com.billing.model.Accountant;
+import com.billing.model.Admin;
+import com.billing.model.Students;
 
 @Controller
 public class AdminController

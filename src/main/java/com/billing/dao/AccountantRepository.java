@@ -1,8 +1,8 @@
-package com.virtusa.billing.dao;
+package com.billing.dao;
 
 import org.springframework.data.repository.CrudRepository;
 
-import com.virtusa.billing.model.Accountant;
+import com.billing.model.Accountant;
 
 public interface AccountantRepository extends CrudRepository<Accountant, Integer>
 {

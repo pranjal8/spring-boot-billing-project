@@ -1,4 +1,4 @@
-package com.virtusa.billing.controller;
+package com.billing.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.virtusa.billing.dao.AccountantRepository;
-import com.virtusa.billing.dao.StudentsRepository;
-import com.virtusa.billing.model.Accountant;
-import com.virtusa.billing.model.Students;
+import com.billing.dao.AccountantRepository;
+import com.billing.dao.StudentsRepository;
+import com.billing.model.Accountant;
+import com.billing.model.Students;
 
 @Controller
 public class AccountantController

@@ -1,4 +1,4 @@
-package com.virtusa.billing.model;
+package com.billing.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
